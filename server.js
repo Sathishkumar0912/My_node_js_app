@@ -15,6 +15,11 @@ app.get('/', (req, res) => {
   res.write("Hello Sathishkumar,first");
   res.end();
 });
+
+app.get('/home', (req, res) => {
+  res.write("Hello Sathishkumar,first");
+  res.end();
+});
 /*
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
